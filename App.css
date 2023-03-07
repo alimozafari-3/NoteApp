@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    background-color: silver;
+}
+
+.sectcol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 35px;
+}
+
+
+#input1 {
+    width: 35rem;
+    padding: 1rem 3px;
+    border-radius: 5px;
+    border: none;
+}
+
+#input1:focus {
+    outline: none;
+}
+
+#input1::placeholder {
+    font-size: 16px;
+    font-family: cursive;
+}
+
