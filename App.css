@@ -45,3 +45,26 @@ body {
     font-size: 16px;
     font-family: cursive;
 }
+
+#btnaddnote {
+    width: 35.5rem;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: .5rem;
+    cursor: pointer;
+    background-color: rgb(255, 157, 0);
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+.addtotext .btn1 {
+    background-color: rgb(255, 166, 0);
+    border: none;
+    color: white;
+    padding: 0.6rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
