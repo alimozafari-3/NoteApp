@@ -68,3 +68,35 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.addtotext .btn2 {
+    background-color: rgb(190, 45, 190);
+    border: none;
+    color: white;
+    padding: 0.6rem;
+    border-radius: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+div {
+    background-color: white;
+    padding: 1rem 5rem;
+    margin-top: 8px;
+    border-radius: 10px;
+
+}
+
+.delete {
+    display: none;
+}
+
+.pstyle {
+    font-family: cursive;
+}
+
+.h1style {
+    font-size: 20px;
+    font-family: cursive;
+
+}
