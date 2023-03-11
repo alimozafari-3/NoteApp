@@ -22,6 +22,29 @@ btnadd.addEventListener("click", () => {
     mytt2.value = "btn2";
     btnEdite.setAttributeNode(mytt2);
 
+    let box = document.createElement("div");
 
+    btnEdite.addEventListener("click", () => {
+      if (inputtext.value.length >= 1 && textarea.value.length >= 1) {
+        h3.innerHTML = inputtext.value;
+        textP.innerHTML = textarea.value;
+        inputtext.value = "";
+        textarea.value = "";
+      }
+    });
+
+    btndelete.addEventListener("click", () => {
+      box.classList.toggle("delete");
+    });
+
+    box.appendChild(h3);
+    box.appendChild(textP);
+    box.appendChild(btndelete);
+    box.appendChild(btnEdite);
+
+    addtotext.appendChild(box);
+
+    inputtext.value = "";
+    textarea.value = "";
   }
 });
